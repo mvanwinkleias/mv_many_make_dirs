@@ -1,5 +1,10 @@
 its_me ?= $(strip $(dir $(firstword $(MAKEFILE_LIST))))
+# real_path = hello
+timestamp = $(shell date +'%T.%3N' )
+message = $(timestamp) $(real_path)
+output_file ?= /tmp/something.txt
 
 .PHONY: all
 all:
-	@realpath $(its_me)
+	printf "%s \n" "$(message)" $(realpath $(its_me)) >> "$(output_file)"
+	sleep 1
