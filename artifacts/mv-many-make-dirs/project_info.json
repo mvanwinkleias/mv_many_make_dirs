@@ -1,0 +1,13 @@
+{
+   "AUTOMATION_USER" : "iasnetauto",
+   "project_dir" : "mv_many_make_dirs",
+   "USE_AUTOMATION_PERMISSIONS" : 0,
+   "package_name" : "mv-many-make-dirs",
+   "installed_directory_layout" : "project_directories-full_project.gmk",
+   "AUTOMATION_GROUP" : "iasnetauto",
+   "BASE_DIR" : "/opt/IAS",
+   "project_name" : "mv_many_make_dirs",
+   "summary" : "Shows how to recurse into directories with make and run multiple jobs",
+   "wiki_page" : "",
+   "ticket" : ""
+}

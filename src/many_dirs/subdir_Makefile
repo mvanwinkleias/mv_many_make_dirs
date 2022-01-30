@@ -1,0 +1,5 @@
+its_me ?= $(strip $(dir $(firstword $(MAKEFILE_LIST))))
+
+.PHONY: all
+all:
+	@realpath $(its_me)
